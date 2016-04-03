@@ -8,10 +8,10 @@
 
     <Loggers>
 
-		<AsyncLogger name="eu.tibai" level="TRACE"/>
+		<Logger name="eu.tibai.spring.boot.mysql" level="TRACE" />
 
         <!-- Reduce startup noise -->
-        <AsyncLogger name="org.springframework.beans.factory" level="WARN"/>
+        <AsyncLogger name="org.springframework.beans.factory" level="WARN" />
 
         <AsyncRoot level="INFO">
             <AppenderRef ref="Console"/>
