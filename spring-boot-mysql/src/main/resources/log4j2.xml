@@ -9,6 +9,8 @@
     <Loggers>
 
 		<Logger name="eu.tibai.spring.boot.mysql" level="TRACE" />
+		
+		<Logger name="org.hibernate" level="INFO" />
 
         <!-- Reduce startup noise -->
         <AsyncLogger name="org.springframework.beans.factory" level="WARN" />
