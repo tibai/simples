@@ -1,4 +1,4 @@
-package netgloo.models;
+package eu.tibai.spring.boot.mysql.models;
 
 import javax.transaction.Transactional;
 
